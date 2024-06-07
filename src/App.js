@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+const buttonHandler = () => {
+
+}
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={buttonHandler}>버튼</button>
       </header>
     </div>
   );
